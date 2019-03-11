@@ -6,20 +6,41 @@ page {
   flex-direction: column;
   justify-content: flex-start;
 }
-
+/** 
+*banner图片的设置
+*/
 .banner{
   width: 100%;
 }
 
+/**
+*小图片的设置
+*/
 .textImage{
   width: 50px;
   height: 50px;
   margin:5px 4.5%;
 }
-
+/***
+*图片下的文字
+*/
 .urlText{
-   margin:1px 7.5%;
+   /* margin:1px 8%; */
    float: left;
-   text-align: left;
    font-size: 14px;
+   width: 50px;
+   text-align: center;
+   margin:0px 4.5%;
+}
+
+/***
+*小图片的view 标签
+*/
+.smallImg{
+  text-align: center;
+}
+
+.smallImgText{
+  width:100%;
+  text-align: center;
 }
