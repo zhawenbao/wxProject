@@ -1,0 +1,25 @@
+/**index.wxss**/
+
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.banner{
+  width: 100%;
+}
+
+.textImage{
+  width: 50px;
+  height: 50px;
+  margin:5px 4.5%;
+}
+
+.urlText{
+   margin:1px 7.5%;
+   float: left;
+   text-align: left;
+   font-size: 14px;
+}

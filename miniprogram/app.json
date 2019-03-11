@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib"
+  ],
+  "window": {
+    "backgroundColor": "#123456",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#123456",
+    "navigationBarTitleText": "微信商城",
+    "navigationBarTextStyle": "light"
+  },
+  "tabBar": {
+    "position":"top",
+    "backgroundColor":"#123456",
+    "color":"#FFFFFF",
+    "selectColor":"#123456",
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "周边"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "电影"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "新闻"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "更多"
+      }
+    ]
+  }
+}

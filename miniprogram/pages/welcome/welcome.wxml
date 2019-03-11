@@ -1,0 +1,5 @@
+<!--pages/welcome/welcome.wxml-->
+<view class = "container">
+  <image class="welcomeImg" src="../../images/1.jpg" bindtap="clickLogo"/>
+</view>
+

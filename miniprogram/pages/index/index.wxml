@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <image class="banner" src="../../images/banner.jpg" bindtap="clickBanner"></image>
+</view>
+<view>
+  <image class="textImage" src='../../images/2.jpg' bindtap='java'></image>
+  <image class="textImage" src='../../images/3.jpg' bindtap='php'></image>
+  <image class="textImage" src='../../images/4.jpg' bindtap='pyhon'></image>
+  <image class="textImage" src='../../images/5.jpg' bindtap='c'></image>
+  <navigator class="urlText" url='../welcome/welcome'>java</navigator>
+  <navigator class="urlText" url='pages/welcome/welcome'>php</navigator>
+  <navigator class="urlText" url='pages/welcome/welcome'>pyhon</navigator>
+  <navigator class="urlText" url='pages/welcome/welcome'>C++</navigator>
+</view>
